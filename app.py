@@ -32,7 +32,7 @@ st.sidebar.subheader("🌍 Altitude & Atmospheric Settings")
 alt_min = st.sidebar.number_input("Minimum Altitude (m)", value=0.0, step=500.0)
 alt_max = st.sidebar.number_input("Maximum Altitude (m)", value=5000.0, step=500.0)
 alt_step_val = st.sidebar.number_input("Altitude Step for Analysis (m)", value=1000.0, step=500.0)
-selected_alt = st.sidebar.slider("Target Altitude for Detailed Plots (m)", min_value=int(alt_min), max_value=int(alt_max), value=2000.0, step=500.0)
+selected_alt = st.sidebar.slider("Target Altitude for Detailed Plots (m)", min_value=float(alt_min), max_value=float(alt_max), value=2000.0, step=500.0)
 
 # Velocity Array Configuration
 st.sidebar.subheader("🚀 Velocity Scan Settings")
