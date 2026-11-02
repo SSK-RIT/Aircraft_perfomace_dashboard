@@ -4,12 +4,12 @@ import matplotlib.pyplot as plt
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Aircraft Performance Analysis Dashboard",
+    page_title=" Aircraft Performance Analysis Dashboard",
     page_icon="✈️",
     layout="wide"
 )
 
-st.title("✈️ Interactive Aircraft Performance Analysis Dashboard")
+st.title("✈️ SAVIJTHKUMAR'S Aircraft Performance Analysis Dashboard")
 st.markdown("This application calculates and visualizes flight performance parameters (Thrust, Power, Rate of Climb, V-n Envelope, Range, Endurance, Glide, and Takeoff) for custom altitudes spanning from sea level up to 5 km and beyond.")
 
 # --- Sidebar Inputs ---
